@@ -1,0 +1,96 @@
+# 模型文件
+*.pth
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.model
+*.weights
+
+# 数据文件
+*.wav
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.flv
+*.wmv
+*.m4a
+*.aac
+*.ogg
+*.flac
+
+# 大型数据集
+data/
+datasets/
+raw_data/
+processed_data/
+Train_data_org.pickle
+test_data.pickle
+validation_data.pickle
+
+# 实验结果和输出
+results/
+experiments/
+outputs/
+logs/
+checkpoints/
+models/
+saved_models/
+trained_models/
+
+# 临时文件
+*.tmp
+*.temp
+*.cache
+*.log
+*.out
+*.err
+
+# Python缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 虚拟环境
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# IDE文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 大文件（超过50MB）
+*.zip
+*.tar.gz
+*.rar
+*.7z
